@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:text="Masuk"
         android:layout_marginTop="30dp"
-        android:id="@+id/btnlogin"
+        android:id="@+id/btnprofil"
         android:background="@drawable/style_button_yellow"
         android:layout_gravity="center"
         />
