@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfdfdf"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Kegiatan">
+
+    <TextView
+        android:id="@+id/senin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:text="Senin :"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/kuliah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Kuliah"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/selasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:text="Selasa :"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/kerja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Kerja"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/rabu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:text="Rabu :"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/belajar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Belajar Bahasa Korea"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/kamis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:text="Kamis :"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/meditasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Meditasi"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/jumat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:text="Jumat :"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/bermain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Bermain"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/sabtu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:text="Sabtu :"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/drakor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Nonton Drama Korea"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/minggu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:text="Minggu :"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/anime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Nonton Anime"
+        android:textSize="20dp" />
+</LinearLayout>
