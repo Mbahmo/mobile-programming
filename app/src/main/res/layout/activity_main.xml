@@ -6,10 +6,45 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@mipmap/back_login"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:padding="40dp"
+    >
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"></EditText>
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/txtusername"
+        android:drawableLeft="@mipmap/account_outline"
+        android:layout_marginTop="170dp"
+        android:paddingLeft="0dp"
+        android:drawablePadding="5dp"
+        android:hint="Masukkan Username"
+        android:textColor="#fff"
+        android:textColorHint="#999"
+        />
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textPassword"
+    android:ems="10"
+    android:id="@+id/txtpassword"
+    android:drawableLeft="@mipmap/lock"
+    android:layout_marginTop="10dp"
+    android:paddingLeft="0dp"
+    android:drawablePadding="5dp"
+    android:hint="Masukkan Password"
+    android:textColor="#fff"
+    android:textColorHint="#999"
+    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masuk"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnlogin"
+        android:background="@drawable/style_button_yellow"
+        android:layout_gravity="center"
+        />
 </LinearLayout>
