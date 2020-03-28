@@ -30,12 +30,14 @@ public class Menu extends Activity implements View.OnClickListener {
         switch (arg0.getId()) {
             case R.id.btnprofil:
                 startActivity(new Intent(Menu.this, Profil.class));
+//                this.finish();
                 break;
             case R.id.btnkegiatan:
                 startActivity(new Intent(Menu.this, Kegiatan.class));
+//                this.finish();
                 break;
             case R.id.btnkeluar:
-                finish();
+                this.finish();
                 break;
         }
     }

@@ -18,9 +18,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        EmailEditText    = (EditText)findViewById(R.id.txtusername);
-        PasswordEditText = (EditText)findViewById(R.id.txtpassword);
-        Login            = (Button)findViewById(R.id.btnprofil);
+        EmailEditText = findViewById(R.id.txtusername);
+        PasswordEditText = findViewById(R.id.txtpassword);
+        Login = findViewById(R.id.btnprofil);
         Login.setOnClickListener(this);
     }
     @Override
@@ -41,14 +41,12 @@ public class MainActivity extends Activity implements View.OnClickListener {
             Toast.makeText(getApplicationContext(), "Berhasil", Toast.LENGTH_LONG).show();
             Intent ExplicitIntent=new Intent(MainActivity.this, Menu.class);
             startActivity(ExplicitIntent);
+            this.finish();
         }
     }
 
     public boolean isValidPassword(String password){
-        if(password != null && password.length()>=4){
-            return true;
-        }
-        return false;
+        return password != null && password.length() >= 4;
     }
 
     public boolean isValidEmail(String email){
