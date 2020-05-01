@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/labelpersegipanjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="Hitung Bangun Data Persegi Panjang"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/labelinputpanjangpersegipanjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Input Panjang Persegi Panjang"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="19dp" />
+
+    <EditText
+        android:id="@+id/txtpanjangpersegipanjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Panjang..."
+        android:textColor="#fff"
+        android:textColorHint="#ddd"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/labelinputlebarpersegipanjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Input Lebar Persegi Panjang"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="19dp" />
+
+    <EditText
+        android:id="@+id/txtlebarpersegipanjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Lebar..."
+        android:textColor="#fff"
+        android:textColorHint="#ddd"
+        android:textSize="19dp" />
+
+
+    <TextView
+        android:id="@+id/labelhasilpersegipanjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Hasil Perhitungan"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/txthasilpersegipanjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Hasil Perhitungan...."
+        android:textColor="#fff"
+        android:textColorHint="#ddd"
+        android:textSize="19dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnhitungluaspersegipanjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/style_button_yellow"
+            android:padding="10dp"
+            android:text="Hitung Luas" />
+
+        <Button
+            android:id="@+id/btnhitungkelilingpersegipanjang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/style_button_yellow"
+            android:padding="10dp"
+            android:text="Hitung Keliling" />
+    </LinearLayout>
+
+
+</LinearLayout>

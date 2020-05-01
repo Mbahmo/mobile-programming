@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/labelpersegi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Hitung Bangun Data Persegi"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/labelinputpersegi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Input Sisi Persegi"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="19dp" />
+
+    <EditText
+        android:id="@+id/txtsisipersegi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Hitung Bangun Data Persegi"
+        android:textColor="#fff"
+        android:textColorHint="#ddd"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/labelhasilpersegi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Hasil Perhitungan"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/txthasilpersegi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Hasil Perhitungan...."
+        android:textColor="#fff"
+        android:textColorHint="#ddd"
+        android:textSize="19dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnhitungluaspersegi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/style_button_yellow"
+            android:padding="10dp"
+            android:text="Hitung Luas" />
+
+        <Button
+            android:id="@+id/btnhitungkelilingpersegi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/style_button_yellow"
+            android:padding="10dp"
+            android:text="Hitung Keliling" />
+    </LinearLayout>
+
+
+</LinearLayout>
