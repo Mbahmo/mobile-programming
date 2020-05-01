@@ -12,22 +12,56 @@
         android:id="@+id/labelpersegi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="30dp"
         android:ems="10"
         android:hint="Hitung Bangun Data Persegi"
         android:textColor="#fff"
         android:textColorHint="#fff"
         android:textSize="19dp" />
 
+    <TextView
+        android:id="@+id/labelinputpersegi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Input Sisi Persegi"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="19dp" />
+
     <EditText
-        android:id="@+id/txtsisi"
+        android:id="@+id/txtsisipersegi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:ems="10"
-        android:hint="Sisi"
+        android:hint="Hitung Bangun Data Persegi"
         android:textColor="#fff"
-        android:textColorHint="#fdd" />
+        android:textColorHint="#ddd"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/labelhasilpersegi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Hasil Perhitungan"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/txthasilpersegi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Hasil Perhitungan...."
+        android:textColor="#fff"
+        android:textColorHint="#ddd"
+        android:textSize="19dp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
