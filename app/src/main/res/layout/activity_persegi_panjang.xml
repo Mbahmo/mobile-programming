@@ -54,7 +54,7 @@
         android:textSize="19dp" />
 
     <EditText
-        android:id="@+id/txtlebarersegipanjang"
+        android:id="@+id/txtlebarpersegipanjang"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"

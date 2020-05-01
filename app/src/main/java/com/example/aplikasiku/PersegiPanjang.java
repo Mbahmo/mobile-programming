@@ -20,7 +20,7 @@ public class PersegiPanjang extends Activity implements View.OnClickListener {
         setContentView(R.layout.activity_persegi_panjang);
 
         Panjang = findViewById(R.id.txtpanjangpersegipanjang);
-        Lebar = findViewById(R.id.txtlebarersegipanjang);
+        Lebar = findViewById(R.id.txtlebarpersegipanjang);
         Hasil = findViewById(R.id.txthasilpersegipanjang);
 
         HitungLuas = findViewById(R.id.btnhitungluaspersegipanjang);

@@ -1,8 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Balok">
+    android:background="@mipmap/bg"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/labelbalok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="Hitung Bangun Data Persegi Panjang"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/labelinputpanjangbalok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Input Panjang Persegi Panjang"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="19dp" />
+
+    <EditText
+        android:id="@+id/txtpanjangbalok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Panjang..."
+        android:textColor="#fff"
+        android:textColorHint="#ddd"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/labelinputlebarbalok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Input Lebar Persegi Panjang"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="19dp" />
+
+    <EditText
+        android:id="@+id/txtlebarbalok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Lebar..."
+        android:textColor="#fff"
+        android:textColorHint="#ddd"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/labelinputtinggibalok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Input Tinggi Persegi Panjang"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="19dp" />
+
+    <EditText
+        android:id="@+id/txttinggibalok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Tinggi..."
+        android:textColor="#fff"
+        android:textColorHint="#ddd"
+        android:textSize="19dp" />
+
+
+    <TextView
+        android:id="@+id/labelhasilbalok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Hasil Perhitungan"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="19dp" />
+
+    <TextView
+        android:id="@+id/txthasilbalok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Hasil Perhitungan...."
+        android:textColor="#fff"
+        android:textColorHint="#ddd"
+        android:textSize="19dp" />
+
+    <Button
+        android:id="@+id/btnhitungluasbalok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/style_button_yellow"
+        android:padding="10dp"
+        android:text="Hitung Volume" />
+
+
+</LinearLayout>
