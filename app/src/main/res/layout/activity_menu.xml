@@ -43,7 +43,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:background="@drawable/style_button_yellow"
-        android:text="Volumen Balok"
+        android:text="Volume Balok"
     />
     <Button
         android:layout_width="match_parent"
