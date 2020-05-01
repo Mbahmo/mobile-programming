@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Persegi"></activity>
+        <activity android:name=".Balok"></activity>
+        <activity android:name=".PersegiPanjang" />
+        <activity android:name=".Persegi" />
         <activity android:name=".Kegiatan" />
         <activity android:name=".Profil" />
         <activity android:name=".Menu" />

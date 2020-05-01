@@ -21,6 +21,13 @@ public class Menu extends Activity implements View.OnClickListener {
 
         Persegi = findViewById(R.id.btnpersegi);
         Persegi.setOnClickListener(this);
+
+        Persegi = findViewById(R.id.btnpersegipanjang);
+        Persegi.setOnClickListener(this);
+
+        Persegi = findViewById(R.id.btnvolumebalok);
+        Persegi.setOnClickListener(this);
+
         Keluar = findViewById(R.id.btnkeluar);
         Keluar.setOnClickListener(this);
     }
@@ -44,13 +51,13 @@ public class Menu extends Activity implements View.OnClickListener {
                 this.finish();
                 break;
             case R.id.btnpersegipanjang:
-//                startActivity(new Intent(Menu.this, Kegiatan.class));
-//                this.finish();
-//                break;
+                startActivity(new Intent(Menu.this, PersegiPanjang.class));
+                this.finish();
+                break;
             case R.id.btnvolumebalok:
-//                startActivity(new Intent(Menu.this, Kegiatan.class));
-//                this.finish();
-//                break;
+                startActivity(new Intent(Menu.this, Balok.class));
+                this.finish();
+                break;
             case R.id.btnkeluar:
                 this.finish();
                 break;

@@ -1,6 +1,7 @@
 package com.example.aplikasiku;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -12,7 +13,6 @@ public class Persegi extends Activity implements View.OnClickListener {
     private TextView Hasil;
     private Integer Input;
     private Button HitungLuas, HitungKeliling;
-    private String Username, Password;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,18 +35,21 @@ public class Persegi extends Activity implements View.OnClickListener {
 
         switch (arg0.getId()) {
             case R.id.btnhitungluaspersegi:
-                Hasil.setText("Hasil Luas Persegi: " + 4 * Input);
+                Hasil.setText("Hasil Luas Persegi : " + Input * Input);
                 break;
 
             case R.id.btnhitungkelilingpersegi:
-                Hasil.setText("Hasil Keliling Persegi: " + 4 * Input);
+                Hasil.setText("Hasil Keliling Persegi : " + 4 * Input);
                 break;
+
         }
     }
 
     @Override
     public void onBackPressed() {
         super.onBackPressed();
+        Intent ExplicitIntent = new Intent(Persegi.this, Menu.class);
+        startActivity(ExplicitIntent);
         finish();
     }
 }
