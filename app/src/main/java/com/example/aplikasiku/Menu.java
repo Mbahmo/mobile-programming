@@ -8,17 +8,20 @@ import android.widget.Button;
 
 public class Menu extends Activity implements View.OnClickListener {
 
-    private Button Profil, Kegiatan, Keluar;
+    private Button Profil, Kegiatan, Persegi, PersegiPanjang, Keluar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
-        Profil = findViewById(R.id.btnprofil);
+//      Profil = findViewById(R.id.btnprofil);
 //      Kegiatan = findViewById(R.id.btnkegiatan);
+//      Profil.setOnClickListener(this);
+//      Kegiatan.setOnClickListener(this);
+
+        Persegi = findViewById(R.id.btnpersegi);
+        Persegi.setOnClickListener(this);
         Keluar = findViewById(R.id.btnkeluar);
-        Profil.setOnClickListener(this);
-        Kegiatan.setOnClickListener(this);
         Keluar.setOnClickListener(this);
     }
 
@@ -36,11 +39,11 @@ public class Menu extends Activity implements View.OnClickListener {
                 this.finish();
                 break;
                  */
-            case R.id.btnbangunpesergi:
+            case R.id.btnpersegi:
                 startActivity(new Intent(Menu.this, Persegi.class));
                 this.finish();
                 break;
-            case R.id.btnbangunpersegipanjang:
+            case R.id.btnpersegipanjang:
 //                startActivity(new Intent(Menu.this, Kegiatan.class));
 //                this.finish();
 //                break;

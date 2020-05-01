@@ -46,7 +46,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
     public void CheckLogin(View arg0) {
         Username = EmailEditText.getText().toString();
         Password = PasswordEditText.getText().toString();
-        if (Username == "18101097" && Password == "18101097") {
+        System.out.println("Console Log dari Username : " + Username + " Dan Password : " + Password);
+        if (Username.equals("18101097") && Password.equals("18101097")) {
             Toast.makeText(getApplicationContext(), "Berhasil", Toast.LENGTH_LONG).show();
             Intent ExplicitIntent = new Intent(MainActivity.this, Menu.class);
             startActivity(ExplicitIntent);

@@ -17,7 +17,7 @@ public class Persegi extends Activity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_persegi);
-        Sisi = findViewById(R.id.txtpassword);
+        Sisi = findViewById(R.id.txtsisi);
         HitungLuas = findViewById(R.id.btnhitungluaspersegi);
         HitungLuas.setOnClickListener(this);
         HitungKeliling = findViewById(R.id.btnhitungkelilingpersegi);
