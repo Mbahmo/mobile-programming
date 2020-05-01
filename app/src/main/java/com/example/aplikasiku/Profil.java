@@ -1,8 +1,8 @@
 package com.example.aplikasiku;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Profil extends AppCompatActivity {
 
@@ -11,4 +11,5 @@ public class Profil extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profil);
     }
+
 }
