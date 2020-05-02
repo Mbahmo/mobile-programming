@@ -15,7 +15,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginBottom="30dp"
         android:ems="10"
-        android:hint="Hitung Bangun Data Persegi Panjang"
+        android:hint="Hitung Bangun Datar Persegi Panjang"
         android:textColor="#fff"
         android:textColorHint="#fff"
         android:textSize="19dp" />

@@ -15,7 +15,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginBottom="30dp"
         android:ems="10"
-        android:hint="Hitung Bangun Data Persegi Panjang"
+        android:hint="Hitung Bangun Ruang Balok"
         android:textColor="#fff"
         android:textColorHint="#fff"
         android:textSize="19dp" />
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:ems="10"
-        android:hint="Input Panjang Persegi Panjang"
+        android:hint="Input Panjang Balok"
         android:textColor="#fff"
         android:textColorHint="#fff"
         android:textSize="19dp" />
@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:ems="10"
-        android:hint="Input Lebar Persegi Panjang"
+        android:hint="Input Lebar Balok"
         android:textColor="#fff"
         android:textColorHint="#fff"
         android:textSize="19dp" />
@@ -70,7 +70,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:ems="10"
-        android:hint="Input Tinggi Persegi Panjang"
+        android:hint="Input Tinggi Balok"
         android:textColor="#fff"
         android:textColorHint="#fff"
         android:textSize="19dp" />

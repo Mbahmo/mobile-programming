@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:ems="10"
-        android:hint="Hitung Bangun Data Persegi"
+        android:hint="Hitung Bangun Datar Persegi"
         android:textColor="#fff"
         android:textColorHint="#fff"
         android:textSize="19dp" />
